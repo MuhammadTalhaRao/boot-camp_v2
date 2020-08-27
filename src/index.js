@@ -4,10 +4,12 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Cool_name from './ma_jsx';
+import Button from './button.js';
+import Counter from './counter_class';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Cool_name f_name = 'Talha' l_name = 'Rao' />
+    <Cool_name f_name = 'Tallha' l_name = 'Rao' />
   </React.StrictMode>,
   document.getElementById('root')
 );
