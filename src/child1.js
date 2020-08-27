@@ -7,7 +7,7 @@ function Child1(){
 
     return(
         <div>
-            <h1>This is Child1 { using_c_h[0] }</h1>
+            <h1>Child1 Counter: { using_c_h[0] }</h1>
             <button 
                 onClick = { () => using_c_h[1]( ++using_c_h[0] ) }
                 className = 'ClassicButton'  >
