@@ -8,7 +8,8 @@ function Child2(){
 
     return(
         <div>
-            <h1>Child2 Counter: {state} </h1>
+            <h1>Using Reducer</h1>
+            <h3>Child2 Counter: {state} </h3>
             <button className = 'ClassicButton' onClick = {()=>dispatcher('INCREMENT')} >++</button>
             <button className = 'ClassicButton' onClick = {()=>dispatcher('DECREMENT') } >--</button>
         </div>

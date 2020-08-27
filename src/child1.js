@@ -7,7 +7,8 @@ function Child1(){
 
     return(
         <div>
-            <h1>Child1 Counter: { using_c_h[0] }</h1>
+            <h1>Using Cotext Hook</h1>
+            <h3>Child1 Counter: { using_c_h[0] }</h3>
             <button 
                 onClick = { () => using_c_h[1]( ++using_c_h[0] ) }
                 className = 'ClassicButton'  >
