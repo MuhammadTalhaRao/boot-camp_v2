@@ -5,11 +5,12 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Cool_name from './ma_jsx';
 import Button from './button.js';
-import Counter from './counter_class';
+import CounterContext from './CounterHook.js';
+import Parent from './Parent.js';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Cool_name f_name = 'Tallha' l_name = 'Rao' />
+    <Parent />
   </React.StrictMode>,
   document.getElementById('root')
 );
