@@ -3,10 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Cool_name from './ma_jsx';
-import Button from './button.js';
-import CounterContext from './CounterHook.js';
-import Parent from './Parent.js';
+import Parent from './parent';
 
 ReactDOM.render(
   <React.StrictMode>

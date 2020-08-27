@@ -1,19 +1,17 @@
-import React, { Component, useState } from 'react';
+import React, { useState, useContext } from 'react';
 import Child1 from './child1';
-import Child2 from './child2';
-import MaCounter from './CounterHook';
+import Counter_Hook from './contextHook';
 
 function Parent(){
-    let countState = useState(0);
-    
+    let p_counter = useState(0);
+
     return(
+        <Counter_Hook.Provider value = {p_counter} >
         <div>
-            <MaCounter.Provider value = {countState} >
-                <h1>This is Parent</h1>        
-                <Child1 />
-                <Child2 />
-            </MaCounter.Provider>
+            <h1>This is Parent</h1>
+            <Child1 />
         </div>
+        </Counter_Hook.Provider>
     );
 }
 
