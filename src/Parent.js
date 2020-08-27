@@ -1,7 +1,7 @@
 import React, { useState, useContext } from 'react';
 import Child1 from './child1';
 import Counter_Hook from './contextHook';
-import Child2 from './Child2';
+import Child2 from './child2';
 
 function Parent(){
     let p_counter1 = useState(0);
